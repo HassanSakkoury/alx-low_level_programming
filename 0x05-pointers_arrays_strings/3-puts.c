@@ -10,9 +10,11 @@ void _puts(char *);
  */
 int main(void)
 {
-	char *str;
+	int index;
 
-	str = "Holberton!";
-	_puts(str);
-	return (0);
+	for (index = 0; str[index] != '\0'; index++)
+	{
+		_putchar(str[index]);
+	}
+	_putchar('\n');
 }

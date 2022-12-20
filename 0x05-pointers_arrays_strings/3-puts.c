@@ -2,11 +2,12 @@
 
 
 /**
- * main - check the code for Holberton School students.
- * _puts: a function that prints a string
+ *
+ * _puts - a function that prints a string
  * @str: string input
- * Return: Always 0.
- */
+ * Return: string
+ *
+ **/
 void _puts(char *str)
 {
 	int i;
